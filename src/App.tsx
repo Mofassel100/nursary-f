@@ -1,18 +1,24 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
+
 import './App.css'
-import Navber from './Component/Navber'
+import Footer from './Component/Footer'
+
+import Mainlayouts from './Component/layouts/mainLayouts/Mainlayouts'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
-    <>
-  <Navber/>
+
+<div className='min-h-screen w-full'>
+  <Mainlayouts/>
+  <div className='fixed bottom-0 w-full'>
+    <Footer/>
+  </div>
+</div>
         
-    </>
+  
   )
 }
 

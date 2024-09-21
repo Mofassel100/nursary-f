@@ -1,6 +1,7 @@
-import React from 'react';
 
-const Navber = () => {
+
+const Header
+ = () => {
     return (
         <div className="navbar bg-base-100">
         <div className="navbar-start">
@@ -57,4 +58,5 @@ const Navber = () => {
     );
 };
 
-export default Navber;
+export default Header
+;
